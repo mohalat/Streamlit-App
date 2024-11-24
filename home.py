@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open(r"c:\Users\User01\Downloads\Image 2024-11-17 at 8.18.32 PM.jpeg")
+image = Image.open("rc:\Users\User01\Downloads\2024-11-17 at 8.18.32 PM.jpeg")
 st.image(image, width = 700) 
 
 def home_page():
