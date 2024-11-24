@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
 
-#image = Image.open(r"C:\Users\User01\OneDrive - Azubi Africa\Desktop\Streamlit\2024-11-17 at 8.18.32 PM.jpeg")
-#st.image(image, width = 700) 
+image = Image.open(r"C:\Users\User01\OneDrive - Azubi Africa\Desktop\Streamlit\2024-11-17 at 8.18.32 PM.jpeg")
+st.image(image, width = 700) 
 
 def home_page():
     st.title("Embedded ML model in GUIs --using streamlit")
@@ -51,7 +51,7 @@ def home_page():
     st.subheader("Author: Abdul")
 
     # Adding an image using the path / way 1
-    #st.image(r"C:\Users\User01\Downloads\Downloads\download.png")
+    st.image(r"C:\Users\User01\Downloads\Downloads\download.png")
 
     # Way 2
     # install pillow -- from PIL import Image
